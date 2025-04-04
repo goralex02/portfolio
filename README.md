@@ -1,19 +1,25 @@
 # Data_Processing_and_Machine_Learning
 Портфолио выполненных работ по ML и DS
 
-## Data Science / Classic Machine Learning
+## Основы
 
 |**Проект**|**Задача проекта**|**Направление**|**Требуемые навыки и инструменты**|
 |:-----------------|:-------------------------------|:-----------|:-----------|
-|[01. Введение в NumPy](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_01_NumPy_intro.ipynb)|Знакомство с основными методами NumPy.|**Анализ данных**|*Python*, *NumPy*|
-|[02. Введение в Pandas](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_02_Pandas_intro.ipynb)|Знакомство с основными методами Pandas.|**Анализ данных**|*Python*, *Pandas*|
-|[03. Разведочный анализ данных](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_03_Exploratory_Data_Analysis.ipynb)|Проведение разведочного анализа данных и построение различных графиков.|**Анализ данных**|*Python*, *Pandas*, *Matplotlib*, *Seaborn*, *Plotly*|
-|[04. kNN и Линейная Регрессия](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_04_kNN_LinearRegression.ipynb)|Определение типа вина с помощью kNN и предсказание стоимости алмазов с помощью линейной регрессии|**Машинное обучение**, **Классификация**, **Регрессия**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*|
-|[05. Градиентный спуск](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_05_Gradient_Descent.ipynb)|Реализация градиентного спуска вручную и применение его к самописному классу линейной регрессии. Сранение GD и SGD, а также алгоритма отжига.|**Машинное обучение**, **Регрессия**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*|
-|[06. Предсказание оттока клиентов](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_06_Prediction_of_Subscriber_Outflow.ipynb)|Для каждого абонента предсказать колонку Leave_Next_Month, означающую, уйдет ли клиент в следующем месяце. Значение должно быть либо 0 - абонент точно не уйдет в следующем месяце, либо 1 - абонент точно уйдет в следующем месяце. Сравнить LightGBM, XGBoost, CatBoost.|**Машинное обучение**, **Бинарная классификация**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*, *LightGBM*, *XGBoost*, *CatBoost*|
-|[07. Предсказание погоды](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_07_Weather_Classification.ipynb)|Предсказываем погоду различными методами. Тестируем классификаторы из Scikit-learn.|**Машинное обучение**, **Классификация**|*Python*, *Pandas*, *Numpy*, *Matplotlib*, *Scikit-learn*, *CatBoost*|
-|[08. Предсказание года выхода песни](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/DS_08_PyTorch_Regression_MLP.ipynb)|Предсказание года выхода песни с помощью полносвязной нейронной сети на PyTorch.|**Глубинное обучение**, **Классификация**|*Python*, *Pandas*, *NumPy*, *matplotlib*, *PyTorch*|
-|[09. Классификация впечатлений от полета](https://github.com/goralex02/Flight_satisfaction)|По результатам послеполетной анкеты выясняем, понравился ли пассажиру полет, и с какой вероятностью. Используем веб-интерфейс на Streamlit (ссылка на приложение в репозитории).|**Машинное обучение**, **Бинарная классификация**, **Веб-интерфейс**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*, *Pyplot*, *Seaborn*, *Streamlit*|
+|[01. Введение в NumPy](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/Base_01_NumPy_intro.ipynb)|Знакомство с основными методами NumPy.|**Анализ данных**|*Python*, *NumPy*|
+|[02. Введение в Pandas](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/Base_02_Pandas_intro.ipynb)|Знакомство с основными методами Pandas.|**Анализ данных**|*Python*, *Pandas*|
+|[03. Разведочный анализ данных](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/Base_03_Exploratory_Data_Analysis.ipynb)|Проведение разведочного анализа данных и построение различных графиков.|**Анализ данных**|*Python*, *Pandas*, *Matplotlib*, *Seaborn*, *Plotly*|
+|[04. kNN и Линейная Регрессия](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/Base_04_kNN_LinearRegression.ipynb)|Определение типа вина с помощью kNN и предсказание стоимости алмазов с помощью линейной регрессии|**Машинное обучение**, **Классификация**, **Регрессия**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*|
+|[05. Градиентный спуск](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/Base_05_Gradient_Descent.ipynb)|Реализация градиентного спуска вручную и применение его к самописному классу линейной регрессии. Сранение GD и SGD, а также алгоритма отжига.|**Машинное обучение**, **Регрессия**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*|
+
+## Табличный ML / Classic Machine Learning
+
+|**Проект**|**Задача проекта**|**Направление**|**Требуемые навыки и инструменты**|
+|:-----------------|:-------------------------------|:-----------|:-----------|
+|[01. Деревья решений](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/ML_01_Decision_Trees.ipynb)|Реализация решающего дерева вручную и применение его для регрессии и классификации. Сранение дерева, бэггинга и RandomForest для предсказания диабета у пациента.|**Машинное обучение**, **Регрессия**, **Классификация**|*Python*, *NumPy*, *Pandas*, *Matplotlib*, *Scikit-learn*|
+|[02. Предсказание оттока клиентов](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/ML_02_Prediction_of_Subscriber_Outflow.ipynb)|Для каждого абонента предсказать колонку Leave_Next_Month, означающую, уйдет ли клиент в следующем месяце. Значение должно быть либо 0 - абонент точно не уйдет в следующем месяце, либо 1 - абонент точно уйдет в следующем месяце. Сравнить LightGBM, XGBoost, CatBoost.|**Машинное обучение**, **Бинарная классификация**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*, *LightGBM*, *XGBoost*, *CatBoost*|
+|[03. Предсказание погоды](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/ML_03_Weather_Classification.ipynb)|Предсказываем погоду различными методами. Тестируем классификаторы из Scikit-learn.|**Машинное обучение**, **Классификация**|*Python*, *Pandas*, *Numpy*, *Matplotlib*, *Scikit-learn*, *CatBoost*|
+|[04. Предсказание года выхода песни](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/ML_04_PyTorch_Regression_MLP.ipynb)|Предсказание года выхода песни с помощью полносвязной нейронной сети на PyTorch.|**Глубинное обучение**, **Классификация**|*Python*, *Pandas*, *NumPy*, *matplotlib*, *PyTorch*|
+|[05. Классификация впечатлений от полета](https://github.com/goralex02/Flight_satisfaction)|По результатам послеполетной анкеты выясняем, понравился ли пассажиру полет, и с какой вероятностью. Используем веб-интерфейс на Streamlit (ссылка на приложение в репозитории).|**Машинное обучение**, **Бинарная классификация**, **Веб-интерфейс**|*Python*, *Pandas*, *Matplotlib*, *Scikit-learn*, *Pyplot*, *Seaborn*, *Streamlit*|
 
 ## Computer Vision
 
