@@ -57,6 +57,7 @@
 |:-----------------|:-------------------------------|:-----------|:-----------|
 |[01. Классификация наличия аномалий у временных рядов](https://github.com/goralex02/vk-ds-test-2024/blob/main/solution.ipynb)|Проведение бинарной классификации временных рядов на предмет наличия аномалий.|**Машинное обучение**, **Временные ряды**, **Бинарная классификация**|*Python*, *Pandas*, *Matplotlib*, *CatBoost*|
 |[02. Предсказание стоимости акций](https://github.com/goralex02/time-series-project)|Предсказание стоимости портфеля из трех акций статистическими и ML методами|**Машинное обучение**, **Временные ряды**, **Регрессия**|*Python*, *Pandas*, *Matplotlib*, *PyTorch*, *ETNA*, *statsmodels* *CatBoost*|
+|[03. Предсказание наличности в банкоматах](https://github.com/goralex02/Data_Processing_and_Machine_Learning/blob/main/TS_03_Predicting_ATM_Cash.ipynb)|Предсказание объемов наличности в банкоматах различными методами|**Машинное обучение**, **Временные ряды**, **Регрессия**|*Python*, *ETNA*, *statsmodels* *CatBoost*, *ARIMA*, *Prophet*, *HierarchicalPipeline*, *AutoRegressivePipeline*, *StackingEnsemble*, *VotingEnsemble*|
 
 ## MLSecOps
 
